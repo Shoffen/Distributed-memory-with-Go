@@ -152,7 +152,7 @@ func worker(workerID int, dataChannel chan BasketBallerData, doneChannel chan st
 func main() {
 	startTime := time.Now()
 
-	file, err := os.ReadFile("data.json")
+	file, err := os.ReadFile("data3.json")
 	if err != nil {
 		fmt.Println("Error reading JSON file:", err)
 		return
